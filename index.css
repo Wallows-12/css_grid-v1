@@ -1,0 +1,42 @@
+
+header {
+
+	background-color: sandybrown;
+	border-radius: 10px;
+    padding: 15px 30px;
+    height: 10vh;
+}
+
+.left {
+	align-content: center;
+	background-color: limegreen;
+	width: 200px;
+
+
+}
+
+.main {
+	background-color: lightyellow;
+	flex-grow: 4;
+	flex-flow: column wrap;
+}
+
+.right {
+	align-content: center;
+	background-color: maroon;
+	width: 200px;
+}
+
+footer {
+	background-color: purple;
+	padding: 15px 30px;
+	border-radius: 10px;
+	height: 10vh;
+}
+
+.parent {
+
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+}
